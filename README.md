@@ -52,7 +52,7 @@ npm run dev
 ```
 
 ### 3. Access
-- **Frontend**: http://localhost:3000
+- **Frontend**: http://localhost:3001
 - **API Gateway**: http://localhost:3000/api
 - **Auth Service**: http://localhost:3001/api/auth
 - **Trip Engine**: http://localhost:3002/api/trips
