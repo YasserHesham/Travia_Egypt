@@ -1,8 +1,17 @@
 # Travia Egypt — Budget-First AI Travel Platform
 
+# run the programe:
+1- open docker
+2- D:\Graduation Project\Travia Egypt
+Windows powershell:
+3- docker compose up -d
+4- npm run dev
+5- open http://localhost:3001
+
+
 A production-ready full-stack application for planning budget-conscious trips to Egypt.
 
-## 🏗 Architecture
+#  Architecture
 
 ```
 travia-egypt/
@@ -21,7 +30,7 @@ travia-egypt/
 └── docker-compose.yml          # PostgreSQL + Redis
 ```
 
-## 🚀 Quick Start
+# Quick Start
 
 ### 1. Prerequisites
 - Node.js 18+
@@ -61,13 +70,13 @@ npm run dev
 - **Activities**: http://localhost:3005/api/activities
 - **AI Service**: http://localhost:3006/api/ai
 
-## 📱 UI Screens
+#  UI Screens
 
 1. **Onboarding** — Intro + Budget input (min $100)
 2. **Destination Selection** — Cairo, Luxor, Aswan, Hurghada, Sharm El Sheikh, Alexandria + "Anywhere"
 3. **Date Selection** — Departure + Return with validation
 4. **Traveler Info** — Count + type (Solo/Couple/Family/Group)
-5. **Preferences** — Multi-select interests (max 5)
+5. **Preferences** — Multi-select interests (max 4)
 6. **AI Generation** — Animated loading with steps
 7. **Package Comparison** — Budget/Standard/Luxury plans
 8. **Transport Selection** — Flights + buses with budget tracker
@@ -78,7 +87,7 @@ npm run dev
 13. **Auth** — Login, Signup
 14. **Profile** — User info + saved trips
 
-## 🗄 Database
+#  Database
 
 PostgreSQL with Prisma ORM. Tables:
 - Users, Trips, TripPlans, TripStops
@@ -86,7 +95,7 @@ PostgreSQL with Prisma ORM. Tables:
 - Transport, Hotels, Activities
 - Bookings, Conversations, AiSessions
 
-## 🤖 AI Logic
+#  AI Logic
 
 Budget allocation per plan type:
 | Plan | Transport | Hotel | Activities |
@@ -100,7 +109,7 @@ OpenAI GPT-4o-mini generates:
 - Per-destination activity suggestions
 - Travel tips specific to Egypt
 
-## 🔑 API Endpoints
+#  API Endpoints
 
 ### Auth
 - `POST /api/auth/register` — Register
@@ -108,7 +117,7 @@ OpenAI GPT-4o-mini generates:
 - `GET /api/auth/profile` — Get profile (JWT)
 - `PUT /api/auth/profile` — Update profile (JWT)
 
-### Transport
+#=## Transport
 - `GET /api/transport` — All transport
 - `GET /api/transport/search?from=Cairo&to=Luxor` — Search
 - `GET /api/transport/by-type?type=FLIGHT` — Filter by type
@@ -134,19 +143,19 @@ OpenAI GPT-4o-mini generates:
 - `POST /api/ai/generate-trip` — Generate trip plan
 - `POST /api/ai/chat` — AI assistant chat
 
-## 🧪 Test Account
+#  Test Account
 
 After seeding:
 - **Email**: test@travia.egypt
 - **Password**: Test1234!
 
-## 📦 Tech Stack
+#  Tech Stack
 
 **Frontend**: Next.js 14, TypeScript, Tailwind CSS, Zustand, Axios, Lucide Icons
 **Backend**: NestJS, Prisma, PostgreSQL, Passport JWT, OpenAI API
 **Infrastructure**: Docker Compose, Turborepo monorepo
 
-## 🎯 Key Features
+#  Key Features
 
 - Egypt-only destinations (Cairo, Luxor, Aswan, Hurghada, Sharm El Sheikh, Alexandria)
 - Budget-first planning with real-time budget tracking
