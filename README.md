@@ -3,8 +3,7 @@
 # run the programe:
 - open docker
 - D:\Graduation Project\Travia Egypt
-# Windows powershell:
-- docker compose up -d
+- docker compose up -d (Windows powershell)
 - npm run dev
 - open http://localhost:3001
 
