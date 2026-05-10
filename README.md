@@ -1,12 +1,12 @@
 # Travia Egypt — Budget-First AI Travel Platform
 
 # run the programe:
-1- open docker
-2- D:\Graduation Project\Travia Egypt
-Windows powershell:
-3- docker compose up -d
-4- npm run dev
-5- open http://localhost:3001
+- open docker
+- D:\Graduation Project\Travia Egypt
+# Windows powershell:
+- docker compose up -d
+- npm run dev
+- open http://localhost:3001
 
 
 A production-ready full-stack application for planning budget-conscious trips to Egypt.
