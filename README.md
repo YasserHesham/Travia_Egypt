@@ -2,7 +2,7 @@
 
 # run the programe:
 - open docker
-- D:\Graduation Project\Travia Egypt
+- cd "D:\Graduation Project\Travia Egypt"
 - docker compose up -d (Windows powershell)
 - npm run dev
 - open http://localhost:3001
